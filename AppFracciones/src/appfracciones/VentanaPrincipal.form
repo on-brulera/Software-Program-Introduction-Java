@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="PnPresentacion" max="32767" attributes="0"/>
+          <Component id="TpContenedor" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="PnPresentacion" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="TpContenedor" min="-2" pref="244" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="PnPresentacion">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="JlTitulo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="LbUniversidad" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="LbEstudiante" min="-2" pref="98" max="-2" attributes="0"/>
+                              <Component id="LbCurso" alignment="0" min="-2" pref="210" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="JlTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LbUniversidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="LbCurso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="LbEstudiante" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="8" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="JlTitulo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Courier New" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="FRACCIONARIO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LbUniversidad">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Universidad T&#xe9;cnica del Norte"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LbCurso">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Programaci&#xf3;n Orientada a Objetos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LbEstudiante">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ram&#xed;rez Henry"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="TpContenedor">
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Fraccion Mixta"/>
+        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value="mpkmp"/>
+      </AccessibilityProperties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="PnFraccionNormal">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Fracci&#xf3;n Com&#xfa;n">
+                <Property name="tabTitle" type="java.lang.String" value="Fracci&#xf3;n Com&#xfa;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PnAtributoFraccionComun" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PnAtributoFraccionComun" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PnAtributoFraccionComun">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="CbSeleccionarFraccionComun" min="-2" pref="195" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="LbNumerador" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtNumerador" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="LbDenominador" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtDenominador" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="BtnAceptarFraccionComun" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="LbFraccionComun" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="TxtFraccionPropio" min="-2" pref="56" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="52" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CbSeleccionarFraccionComun" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbNumerador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtDenominador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbDenominador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtNumerador" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BtnAceptarFraccionComun" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LbFraccionComun" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtFraccionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="CbSeleccionarFraccionComun">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="Usar fraccion del Sistema"/>
+                        <StringItem index="1" value="Escribir Entero"/>
+                        <StringItem index="2" value="Escribir Fraccion"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbSeleccionarFraccionComunActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbNumerador">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numerador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbDenominador">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Denominador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtDenominador">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtDenominadorActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtNumerador">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtNumeradorActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="BtnAceptarFraccionComun">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="aceptar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAceptarFraccionComunActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbFraccionComun">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fracci&#xf3;n Com&#xfa;n:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtFraccionPropio">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="0/0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="LbRespuestaPropio" min="-2" pref="111" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="TxtRespuestaPropio" min="-2" pref="73" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="CbOpcionesFraccionPropio" min="-2" pref="197" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="LbNumeradorOperacionPropio" min="-2" pref="74" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="TxtNumeradorOperacionPropio" min="-2" pref="49" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="LbDenominadorOperacionPropio" min="-2" pref="91" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="TxtDenominadorOperacionPropio" min="-2" pref="49" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="BtnOperacionPropio" min="-2" pref="82" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CbOpcionesFraccionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbNumeradorOperacionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtNumeradorOperacionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbDenominadorOperacionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtDenominadorOperacionPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BtnOperacionPropio" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LbRespuestaPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtRespuestaPropio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="53" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="CbOpcionesFraccionPropio">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="14">
+                        <StringItem index="0" value="Operaciones"/>
+                        <StringItem index="1" value="Sumar con entero"/>
+                        <StringItem index="2" value="Sumar con n/d"/>
+                        <StringItem index="3" value="Sumar con objeto fraccion"/>
+                        <StringItem index="4" value="Restar con entero"/>
+                        <StringItem index="5" value="Restar con n/d"/>
+                        <StringItem index="6" value="Restar con objeto fraccion"/>
+                        <StringItem index="7" value="Multiplicar con entero"/>
+                        <StringItem index="8" value="Multiplicar con n/d"/>
+                        <StringItem index="9" value="Multiplicar con objeto fraccion"/>
+                        <StringItem index="10" value="Dividir con entero"/>
+                        <StringItem index="11" value="Dividir con n/d"/>
+                        <StringItem index="12" value="Dividir con objeto fraccion"/>
+                        <StringItem index="13" value=" "/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbOpcionesFraccionPropioActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbNumeradorOperacionPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numerador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtNumeradorOperacionPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtNumeradorOperacionPropioActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbDenominadorOperacionPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Denominador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtDenominadorOperacionPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtDenominadorOperacionPropioActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="BtnOperacionPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="aceptar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnOperacionPropioActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbRespuestaPropio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Respuesta "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtRespuestaPropio">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="0/0"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="PnFraccionMixta">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Fraccion Mixta">
+                <Property name="tabTitle" type="java.lang.String" value="Fraccion Mixta"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="LbFraccionMixto" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtFraccionMixto" min="-2" pref="56" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="CbSeleccionarFraccionMixto" min="-2" pref="195" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="LbEnteroMixto" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="TxtEnteroMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="LbNumeradorMixto" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtNumeradorMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LbDenominadorMixto" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtDenominadorMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="BtnAceptarFraccionMixto" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CbSeleccionarFraccionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BtnAceptarFraccionMixto" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="TxtDenominadorMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbDenominadorMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtNumeradorMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbNumeradorMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbEnteroMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtEnteroMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LbFraccionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtFraccionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="CbSeleccionarFraccionMixto">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="4">
+                        <StringItem index="0" value="Usar fraccion del Sistema"/>
+                        <StringItem index="1" value="Escribir Entero"/>
+                        <StringItem index="2" value="Escribir Fraccion"/>
+                        <StringItem index="3" value="Escribir Fraccion Mixta"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbSeleccionarFraccionMixtoActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbNumeradorMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numerador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtNumeradorMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtNumeradorMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbDenominadorMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Denominador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtDenominadorMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtDenominadorMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="BtnAceptarFraccionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="OK"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnAceptarFraccionMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbFraccionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fracci&#xf3;n Mixta:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtFraccionMixto">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="0/0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbEnteroMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Entero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtEnteroMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtEnteroMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LbRespuestaMixto" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="TxtRespuestaMixto" min="-2" pref="73" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CbOpcionesFraccionMixto" min="-2" pref="197" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LbEnteroOperacionMixto" min="-2" pref="41" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtEnteroOperacionMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LbNumeradorOperacionMixto" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtNumeradorOperacionMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LbDenominadorOperacionMixto" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtDenominadorOperacionMixto" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="BtnOperacionMixto" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CbOpcionesFraccionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbNumeradorOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtNumeradorOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LbDenominadorOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtDenominadorOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BtnOperacionMixto" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="LbEnteroOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtEnteroOperacionMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LbRespuestaMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="TxtRespuestaMixto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="55" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="CbOpcionesFraccionMixto">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="13">
+                        <StringItem index="0" value="Operaciones"/>
+                        <StringItem index="1" value="Sumar con entero"/>
+                        <StringItem index="2" value="Sumar con n/d"/>
+                        <StringItem index="3" value="Sumar con fraccion Mixta"/>
+                        <StringItem index="4" value="Restar con entero"/>
+                        <StringItem index="5" value="Restar con n/d"/>
+                        <StringItem index="6" value="Restar con fraccion Mixta"/>
+                        <StringItem index="7" value="Multiplicar con entero"/>
+                        <StringItem index="8" value="Multiplicar con n/d"/>
+                        <StringItem index="9" value="Multiplicar con fraccion Mixta"/>
+                        <StringItem index="10" value="Dividir con entero"/>
+                        <StringItem index="11" value="Dividir con n/d"/>
+                        <StringItem index="12" value="Dividir con fraccion Mixta"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbOpcionesFraccionMixtoActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbNumeradorOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Numerador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtNumeradorOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtNumeradorOperacionMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbDenominadorOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Denominador:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtDenominadorOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtDenominadorOperacionMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="BtnOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="aceptar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnOperacionMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbRespuestaMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Respuesta "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtRespuestaMixto">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="0/0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="LbEnteroOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Entero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="TxtEnteroOperacionMixto">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtEnteroOperacionMixtoActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
